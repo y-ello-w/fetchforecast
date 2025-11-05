@@ -1,0 +1,55 @@
+{
+  "mountain_id": "hakuba",
+  "source_name": "snowforecast",
+  "target_date": "2025-10-18",
+  "periods": [
+    {
+      "mountain_id": "hakuba",
+      "source_name": "snowforecast",
+      "target_date": "2025-10-18",
+      "period": "morning",
+      "snowfall_cm": null,
+      "snowdepth_cm": null,
+      "temp_low_c": 13.0,
+      "temp_high_c": 16.0,
+      "wind_speed_ms": 2.78,
+      "wind_gust_ms": null,
+      "wind_dir": "SSW",
+      "weather_desc": "some clouds",
+      "notes": null
+    },
+    {
+      "mountain_id": "hakuba",
+      "source_name": "snowforecast",
+      "target_date": "2025-10-18",
+      "period": "afternoon",
+      "snowfall_cm": null,
+      "snowdepth_cm": null,
+      "temp_low_c": 14.0,
+      "temp_high_c": 16.0,
+      "wind_speed_ms": 2.78,
+      "wind_gust_ms": null,
+      "wind_dir": "SW",
+      "weather_desc": "light rain",
+      "notes": "rain_mm=1"
+    },
+    {
+      "mountain_id": "hakuba",
+      "source_name": "snowforecast",
+      "target_date": "2025-10-18",
+      "period": "night",
+      "snowfall_cm": null,
+      "snowdepth_cm": null,
+      "temp_low_c": 9.0,
+      "temp_high_c": 13.0,
+      "wind_speed_ms": 2.78,
+      "wind_gust_ms": null,
+      "wind_dir": "NW",
+      "weather_desc": "rain shwrs",
+      "notes": "rain_mm=16"
+    }
+  ],
+  "daily_summary_json": {},
+  "condition_score": null,
+  "confidence": null
+}

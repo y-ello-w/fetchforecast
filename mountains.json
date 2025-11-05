@@ -1,0 +1,26 @@
+[
+  {
+    "mountain_id": "happo-karamatsu",
+    "name": "八方唐松",
+    "region": "長野",
+    "sources": {
+      "snowforecast": "https://www.snow-forecast.com/resorts/happo-one/6day/mid",
+      "mountainforecast": "https://www.mountain-forecast.com/peaks/Happo-One-and-Karamatsu-Dake/forecasts/2696",
+      "powdersearch": "https://powdersearch.jp/200081d3g.html"
+    },
+    "elevation": 2932,
+    "notes": "白馬エリア主要ピーク"
+  },
+  {
+    "mountain_id": "niseko",
+    "name": "ニセコアンヌプリ",
+    "region": "北海道",
+    "sources": {
+      "snowforecast": "https://www.snow-forecast.com/resorts/niseko/6day/mid",
+      "mountainforecast": "https://www.mountain-forecast.com/peaks/Niseko-Annupuri/forecasts/1308",
+      "powdersearch": "https://powdersearch.jp/16217d3g.html"
+    },
+    "elevation": 1308,
+    "notes": "ニセコエリアを代表するゲレンデ"
+  }
+]

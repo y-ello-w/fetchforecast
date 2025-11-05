@@ -1,0 +1,117 @@
+{
+  "mountain_id": "niseko",
+  "source_name": "mountainforecast",
+  "target_date": "2025-10-19",
+  "periods": [
+    {
+      "mountain_id": "niseko",
+      "source_name": "mountainforecast",
+      "target_date": "2025-10-19",
+      "period": "night",
+      "snowfall_cm": 0.0,
+      "snowdepth_cm": 0.0,
+      "temp_low_c": 0.0,
+      "temp_high_c": 0.0,
+      "wind_speed_ms": 0.0,
+      "wind_gust_ms": 0.0,
+      "wind_dir": "-",
+      "weather_desc": "-",
+      "notes": "-"
+    },
+    {
+      "mountain_id": "niseko",
+      "source_name": "mountainforecast",
+      "target_date": "2025-10-19",
+      "period": "morning",
+      "snowfall_cm": 0.0,
+      "snowdepth_cm": 0.0,
+      "temp_low_c": 0.0,
+      "temp_high_c": 0.0,
+      "wind_speed_ms": 0.0,
+      "wind_gust_ms": 0.0,
+      "wind_dir": "-",
+      "weather_desc": "-",
+      "notes": "-"
+    },
+    {
+      "mountain_id": "niseko",
+      "source_name": "mountainforecast",
+      "target_date": "2025-10-19",
+      "period": "afternoon",
+      "snowfall_cm": 0.0,
+      "snowdepth_cm": 0.0,
+      "temp_low_c": 0.0,
+      "temp_high_c": 0.0,
+      "wind_speed_ms": 0.0,
+      "wind_gust_ms": 0.0,
+      "wind_dir": "-",
+      "weather_desc": "-",
+      "notes": "-"
+    }
+  ],
+  "daily_summary_json": {
+    "status": "fallback",
+    "reason": "404 Client Error: Not Found for url: https://www.mountain-forecast.com/peaks/Niseko-Annupuri/forecasts/1308",
+    "source_urls": [
+      "https://www.mountain-forecast.com/peaks/Niseko-Annupuri/forecasts/1308"
+    ],
+    "fetched_at": "2025-10-14T13:17:27.943275+00:00",
+    "columns": [
+      {
+        "date": "2025-10-19",
+        "period_label": "night",
+        "weather": "-",
+        "wind_direction": "-",
+        "wind_speed_kmh": 0.0,
+        "wind_speed_ms": 0.0,
+        "wind_gust_kmh": 0.0,
+        "wind_gust_ms": 0.0,
+        "temperature_max_c": 0.0,
+        "temperature_min_c": 0.0,
+        "temperature_chill_c": 0.0,
+        "snowfall_cm": 0.0,
+        "rain_mm": 0.0
+      },
+      {
+        "date": "2025-10-19",
+        "period_label": "am",
+        "weather": "-",
+        "wind_direction": "-",
+        "wind_speed_kmh": 0.0,
+        "wind_speed_ms": 0.0,
+        "wind_gust_kmh": 0.0,
+        "wind_gust_ms": 0.0,
+        "temperature_max_c": 0.0,
+        "temperature_min_c": 0.0,
+        "temperature_chill_c": 0.0,
+        "snowfall_cm": 0.0,
+        "rain_mm": 0.0
+      },
+      {
+        "date": "2025-10-19",
+        "period_label": "pm",
+        "weather": "-",
+        "wind_direction": "-",
+        "wind_speed_kmh": 0.0,
+        "wind_speed_ms": 0.0,
+        "wind_gust_kmh": 0.0,
+        "wind_gust_ms": 0.0,
+        "temperature_max_c": 0.0,
+        "temperature_min_c": 0.0,
+        "temperature_chill_c": 0.0,
+        "snowfall_cm": 0.0,
+        "rain_mm": 0.0
+      }
+    ],
+    "units": {
+      "temperature_c": "degC",
+      "wind_speed_kmh": "km/h",
+      "wind_speed_ms": "m/s",
+      "rain_mm": "mm",
+      "snowfall_cm": "cm",
+      "wind_chill_c": "degC"
+    }
+  },
+  "condition_score": null,
+  "confidence": null
+}

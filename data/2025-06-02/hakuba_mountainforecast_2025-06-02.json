@@ -1,0 +1,115 @@
+{
+  "mountain_id": "hakuba",
+  "source_name": "mountainforecast",
+  "target_date": "2025-06-02",
+  "periods": [
+    {
+      "mountain_id": "hakuba",
+      "source_name": "mountainforecast",
+      "target_date": "2025-06-02",
+      "period": "night",
+      "snowfall_cm": null,
+      "snowdepth_cm": null,
+      "temp_low_c": -8.0,
+      "temp_high_c": -5.0,
+      "wind_speed_ms": 8.33,
+      "wind_gust_ms": null,
+      "wind_dir": "NW",
+      "weather_desc": "cloudy skies",
+      "notes": "rain_mm=0.2;wind_chill_c=-12.0"
+    },
+    {
+      "mountain_id": "hakuba",
+      "source_name": "mountainforecast",
+      "target_date": "2025-06-02",
+      "period": "morning",
+      "snowfall_cm": 0.5,
+      "snowdepth_cm": null,
+      "temp_low_c": -5.0,
+      "temp_high_c": -2.0,
+      "wind_speed_ms": 5.56,
+      "wind_gust_ms": null,
+      "wind_dir": "N",
+      "weather_desc": "clear",
+      "notes": "wind_chill_c=-9.0"
+    },
+    {
+      "mountain_id": "hakuba",
+      "source_name": "mountainforecast",
+      "target_date": "2025-06-02",
+      "period": "afternoon",
+      "snowfall_cm": 1.0,
+      "snowdepth_cm": null,
+      "temp_low_c": -2.0,
+      "temp_high_c": 0.0,
+      "wind_speed_ms": 12.5,
+      "wind_gust_ms": null,
+      "wind_dir": "WNW",
+      "weather_desc": "snow showers",
+      "notes": "wind_chill_c=-7.0"
+    }
+  ],
+  "daily_summary_json": {
+    "columns": [
+      {
+        "date": "2025-06-02",
+        "period_label": "night",
+        "weather": "cloudy skies",
+        "wind_direction": "NW",
+        "wind_speed_kmh": 30.0,
+        "wind_speed_ms": 8.33,
+        "wind_gust_kmh": null,
+        "wind_gust_ms": null,
+        "temperature_max_c": -5.0,
+        "temperature_min_c": -8.0,
+        "temperature_chill_c": -12.0,
+        "snowfall_cm": null,
+        "rain_mm": 0.2
+      },
+      {
+        "date": "2025-06-02",
+        "period_label": "am",
+        "weather": "clear",
+        "wind_direction": "N",
+        "wind_speed_kmh": 20.0,
+        "wind_speed_ms": 5.56,
+        "wind_gust_kmh": null,
+        "wind_gust_ms": null,
+        "temperature_max_c": -2.0,
+        "temperature_min_c": -5.0,
+        "temperature_chill_c": -9.0,
+        "snowfall_cm": 0.5,
+        "rain_mm": null
+      },
+      {
+        "date": "2025-06-02",
+        "period_label": "pm",
+        "weather": "snow showers",
+        "wind_direction": "WNW",
+        "wind_speed_kmh": 45.0,
+        "wind_speed_ms": 12.5,
+        "wind_gust_kmh": null,
+        "wind_gust_ms": null,
+        "temperature_max_c": 0.0,
+        "temperature_min_c": -2.0,
+        "temperature_chill_c": -7.0,
+        "snowfall_cm": 1.0,
+        "rain_mm": null
+      }
+    ],
+    "source_urls": [
+      "local_samples/mountainforecast_2025-06-02.html"
+    ],
+    "fetched_at": "2025-10-10T13:13:38.612117+00:00",
+    "units": {
+      "temperature_c": "degC",
+      "wind_speed_kmh": "km/h",
+      "wind_speed_ms": "m/s",
+      "rain_mm": "mm",
+      "snowfall_cm": "cm",
+      "wind_chill_c": "degC"
+    }
+  },
+  "condition_score": null,
+  "confidence": null
+}

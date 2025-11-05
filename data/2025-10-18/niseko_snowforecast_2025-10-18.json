@@ -1,0 +1,55 @@
+{
+  "mountain_id": "niseko",
+  "source_name": "snowforecast",
+  "target_date": "2025-10-18",
+  "periods": [
+    {
+      "mountain_id": "niseko",
+      "source_name": "snowforecast",
+      "target_date": "2025-10-18",
+      "period": "morning",
+      "snowfall_cm": null,
+      "snowdepth_cm": null,
+      "temp_low_c": 9.0,
+      "temp_high_c": 10.0,
+      "wind_speed_ms": 5.56,
+      "wind_gust_ms": null,
+      "wind_dir": "SSW",
+      "weather_desc": "light rain",
+      "notes": "rain_mm=1"
+    },
+    {
+      "mountain_id": "niseko",
+      "source_name": "snowforecast",
+      "target_date": "2025-10-18",
+      "period": "afternoon",
+      "snowfall_cm": null,
+      "snowdepth_cm": null,
+      "temp_low_c": 10.0,
+      "temp_high_c": 10.0,
+      "wind_speed_ms": 4.17,
+      "wind_gust_ms": null,
+      "wind_dir": "SSW",
+      "weather_desc": "mod. rain",
+      "notes": "rain_mm=10"
+    },
+    {
+      "mountain_id": "niseko",
+      "source_name": "snowforecast",
+      "target_date": "2025-10-18",
+      "period": "night",
+      "snowfall_cm": null,
+      "snowdepth_cm": null,
+      "temp_low_c": 1.0,
+      "temp_high_c": 10.0,
+      "wind_speed_ms": 9.72,
+      "wind_gust_ms": null,
+      "wind_dir": "WNW",
+      "weather_desc": "mod. rain",
+      "notes": "rain_mm=8"
+    }
+  ],
+  "daily_summary_json": {},
+  "condition_score": null,
+  "confidence": null
+}

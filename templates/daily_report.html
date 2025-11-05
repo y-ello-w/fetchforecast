@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>Backcountry Forecast</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 1.5rem; }
+      h1 { margin-bottom: 1rem; }
+      section { margin-bottom: 2rem; }
+      table { border-collapse: collapse; width: 100%; margin-top: 0.5rem; table-layout: fixed; }
+      col.col-period { width: 10%; }
+      col.col-weather { width: 20%; }
+      col.col-snow { width: 8%; }
+      col.col-temp { width: 15%; }
+      col.col-wind-dir { width: 10%; }
+      col.col-wind-speed { width: 12%; }
+      col.col-notes { width: 25%; }
+      th, td { border: 1px solid #ccc; padding: 0.4rem 0.6rem; text-align: left; }
+      th { background: #f2f2f2; }
+      tbody tr:nth-child(even) { background: #fafafa; }
+      td.col-notes { word-break: break-word; }
+      td, th { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+      td.col-notes { white-space: normal; }
+    </style>
+  </head>
+  <body>
+    <h1>Backcountry Forecast</h1>
+    {% for daily in dailies %}
+    <section>
+      <h2>{{ daily.mountain_id }} - {{ daily.source_name }} ({{ daily.target_date }})</h2>
+      <table>
+        <colgroup>
+          <col class="col-period" />
+          <col class="col-weather" />
+          <col class="col-snow" />
+          <col class="col-temp" />
+          <col class="col-wind-dir" />
+          <col class="col-wind-speed" />
+          <col class="col-notes" />
+        </colgroup>
+        <thead>
+          <tr>
+            <th>時間帯</th>
+            <th>天気</th>
+            <th>降雪量(cm)</th>
+            <th>気温(℃)</th>
+            <th>風向</th>
+            <th>風速(m/s)</th>
+            <th>備考</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for period in daily.periods %}
+          <tr>
+            <td>{{ period.period.value if period.period.__class__.__name__ != 'str' else period.period }}</td>
+            <td>{{ period.weather_desc or '-' }}</td>
+            <td>{{ '%.1f'|format(period.snowfall_cm) if period.snowfall_cm is not none else '-' }}</td>
+            <td>
+              {% if period.temp_low_c is not none and period.temp_high_c is not none %}
+                {{ '%.1f'|format(period.temp_low_c) }} / {{ '%.1f'|format(period.temp_high_c) }}
+              {% elif period.temp_low_c is not none %}
+                {{ '%.1f'|format(period.temp_low_c) }}
+              {% elif period.temp_high_c is not none %}
+                {{ '%.1f'|format(period.temp_high_c) }}
+              {% else %}
+                -
+              {% endif %}
+            </td>
+            <td>{{ period.wind_dir or '-' }}</td>
+            <td>{{ '%.2f'|format(period.wind_speed_ms) if period.wind_speed_ms is not none else '-' }}</td>
+            <td class="col-notes">{{ period.notes or '-' }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </section>
+    {% endfor %}
+  </body>
+</html>

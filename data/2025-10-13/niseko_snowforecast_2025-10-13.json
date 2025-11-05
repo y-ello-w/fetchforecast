@@ -1,0 +1,9 @@
+{
+  "mountain_id": "niseko",
+  "source_name": "snowforecast",
+  "target_date": "2025-10-13",
+  "periods": [],
+  "daily_summary_json": {},
+  "condition_score": null,
+  "confidence": null
+}

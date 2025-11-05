@@ -1,0 +1,55 @@
+{
+  "mountain_id": "happo-karamatsu",
+  "source_name": "snowforecast",
+  "target_date": "2025-10-19",
+  "periods": [
+    {
+      "mountain_id": "happo-karamatsu",
+      "source_name": "snowforecast",
+      "target_date": "2025-10-19",
+      "period": "morning",
+      "snowfall_cm": null,
+      "snowdepth_cm": null,
+      "temp_low_c": 10.0,
+      "temp_high_c": 12.0,
+      "wind_speed_ms": 1.39,
+      "wind_gust_ms": null,
+      "wind_dir": "NNW",
+      "weather_desc": "some clouds",
+      "notes": null
+    },
+    {
+      "mountain_id": "happo-karamatsu",
+      "source_name": "snowforecast",
+      "target_date": "2025-10-19",
+      "period": "afternoon",
+      "snowfall_cm": null,
+      "snowdepth_cm": null,
+      "temp_low_c": 9.0,
+      "temp_high_c": 11.0,
+      "wind_speed_ms": 1.39,
+      "wind_gust_ms": null,
+      "wind_dir": "NNW",
+      "weather_desc": "cloudy",
+      "notes": null
+    },
+    {
+      "mountain_id": "happo-karamatsu",
+      "source_name": "snowforecast",
+      "target_date": "2025-10-19",
+      "period": "night",
+      "snowfall_cm": null,
+      "snowdepth_cm": null,
+      "temp_low_c": 8.0,
+      "temp_high_c": 9.0,
+      "wind_speed_ms": 0.0,
+      "wind_gust_ms": null,
+      "wind_dir": "WSW",
+      "weather_desc": "light rain",
+      "notes": "rain_mm=5"
+    }
+  ],
+  "daily_summary_json": {},
+  "condition_score": null,
+  "confidence": null
+}

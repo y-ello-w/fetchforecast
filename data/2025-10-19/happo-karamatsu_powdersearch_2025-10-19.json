@@ -1,0 +1,23 @@
+{
+  "mountain_id": "happo-karamatsu",
+  "source_name": "powdersearch",
+  "target_date": "2025-10-19",
+  "periods": [],
+  "daily_summary_json": {
+    "hours": [],
+    "source_urls": [
+      "https://powdersearch.jp/200081d3g.html"
+    ],
+    "fetched_at": "2025-10-14T13:17:25.300088+00:00",
+    "units": {
+      "temperature_c": "degC",
+      "precipitation_mm": "mm",
+      "wind_speed_ms": "m/s",
+      "sunshine_hours": "hours",
+      "snow_depth_cm": "cm",
+      "snowfall_cm": "cm"
+    }
+  },
+  "condition_score": null,
+  "confidence": null
+}

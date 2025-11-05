@@ -1,0 +1,49 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Daily Pipeline",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/run_daily.py",
+      "args": ["--date", "${input:date}"]
+    },
+    {
+      "name": "Render Report",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/render_report.py",
+      "args": [
+        "${input:startDate}",
+        "${input:endDate}"
+      ]
+    },
+    {
+      "name": "Pytest: Current File",
+      "type": "python",
+      "request": "launch",
+      "module": "pytest",
+      "args": ["-q", "${file}"]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "date",
+      "type": "promptString",
+      "description": "Target date (YYYY-MM-DD)",
+      "default": "${currentYear}-${currentMonth}-${currentDate}"
+    },
+    {
+      "id": "startDate",
+      "type": "promptString",
+      "description": "Report start date (YYYY-MM-DD)",
+      "default": "${currentYear}-${currentMonth}-${currentDate}"
+    },
+    {
+      "id": "endDate",
+      "type": "promptString",
+      "description": "Report end date (YYYY-MM-DD)",
+      "default": "${currentYear}-${currentMonth}-${currentDate}"
+    }
+  ]
+}

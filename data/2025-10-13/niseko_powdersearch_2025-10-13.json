@@ -1,0 +1,23 @@
+{
+  "mountain_id": "niseko",
+  "source_name": "powdersearch",
+  "target_date": "2025-10-13",
+  "periods": [],
+  "daily_summary_json": {
+    "hours": [],
+    "source_urls": [
+      "https://powdersearch.jp/16217d3g.html"
+    ],
+    "fetched_at": "2025-10-14T12:52:16.404535+00:00",
+    "units": {
+      "temperature_c": "degC",
+      "precipitation_mm": "mm",
+      "wind_speed_ms": "m/s",
+      "sunshine_hours": "hours",
+      "snow_depth_cm": "cm",
+      "snowfall_cm": "cm"
+    }
+  },
+  "condition_score": null,
+  "confidence": null
+}

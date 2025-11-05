@@ -1,0 +1,55 @@
+{
+  "mountain_id": "niseko",
+  "source_name": "snowforecast",
+  "target_date": "2025-06-02",
+  "periods": [
+    {
+      "mountain_id": "niseko",
+      "source_name": "snowforecast",
+      "target_date": "2025-06-02",
+      "period": "night",
+      "snowfall_cm": 5.0,
+      "snowdepth_cm": null,
+      "temp_low_c": -12.0,
+      "temp_high_c": -6.0,
+      "wind_speed_ms": 2.78,
+      "wind_gust_ms": null,
+      "wind_dir": "NW",
+      "weather_desc": "Light snow",
+      "notes": "rain_mm=0"
+    },
+    {
+      "mountain_id": "niseko",
+      "source_name": "snowforecast",
+      "target_date": "2025-06-02",
+      "period": "morning",
+      "snowfall_cm": 2.0,
+      "snowdepth_cm": null,
+      "temp_low_c": -8.0,
+      "temp_high_c": -3.0,
+      "wind_speed_ms": 4.17,
+      "wind_gust_ms": null,
+      "wind_dir": "W",
+      "weather_desc": "Cloudy",
+      "notes": "rain_mm=1"
+    },
+    {
+      "mountain_id": "niseko",
+      "source_name": "snowforecast",
+      "target_date": "2025-06-02",
+      "period": "afternoon",
+      "snowfall_cm": 10.0,
+      "snowdepth_cm": null,
+      "temp_low_c": -15.0,
+      "temp_high_c": -8.0,
+      "wind_speed_ms": 5.56,
+      "wind_gust_ms": null,
+      "wind_dir": "WNW",
+      "weather_desc": "Heavy snow",
+      "notes": "rain_mm=0"
+    }
+  ],
+  "daily_summary_json": {},
+  "condition_score": null,
+  "confidence": null
+}

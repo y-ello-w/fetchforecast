@@ -1,0 +1,26 @@
+[
+  {
+    "mountain_id": "hakuba",
+    "name": "白馬岳",
+    "region": "テスト",
+    "sources": {
+      "snowforecast": "local_samples/snowforecast_2025-10-13.html",
+      "mountainforecast": "local_samples/mountainforecast_2025-10-13.html",
+      "powdersearch": "local_samples/powder_2025-10-13.html"
+    },
+    "elevation": 2932,
+    "notes": "ローカルサンプル"
+  },
+  {
+    "mountain_id": "niseko",
+    "name": "ニセコアンヌプリ",
+    "region": "テスト",
+    "sources": {
+      "snowforecast": "local_samples/snowforecast_2025-10-13.html",
+      "mountainforecast": "local_samples/mountainforecast_2025-10-13.html",
+      "powdersearch": "local_samples/powder_2025-10-13.html"
+    },
+    "elevation": 1308,
+    "notes": "ローカルサンプル"
+  }
+]
