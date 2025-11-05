@@ -1,0 +1,3 @@
+# Python 仮想環境を無視
+.venv/
+.venv_envcheck/
